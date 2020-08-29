@@ -12,6 +12,11 @@ namespace Ejercicio02
         {
             Console.WriteLine("Ejer 02");
             Console.ReadLine();
+
+
+            MiClase.entero = 2;
+            MiClase.MetodoUno();
+            MiClase.MetodoDos("58");
         }
     }
 }
